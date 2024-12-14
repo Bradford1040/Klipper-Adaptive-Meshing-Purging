@@ -87,11 +87,27 @@ The cleanest and easiest way to get started with KAMP is to use Moonraker's Upda
    ```bash
     cd
     
-    git clone https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+    git clone https://github.com/Bradford1040/Klipper-Adaptive-Meshing-Purging.git
     
-    ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration printer_data/config/KAMP
+    ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration punisher_data/config/KAMP
 
-    cp ~/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/printer_data/config/KAMP_Settings.cfg
+    ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration able_data/config/KAMP
+
+    ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration ben10_data/config/KAMP
+
+    ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration kane_data/config/KAMP
+
+    ln -s ~/Klipper-Adaptive-Meshing-Purging/Configuration pascale_data/config/KAMP
+
+    cp ~/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/punisher_data/config/KAMP_Settings.cfg
+
+    cp ~/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/able_data/config/KAMP_Settings.cfg
+
+    cp ~/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/ben10_data/config/KAMP_Settings.cfg
+
+    cp ~/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/kane_data/config/KAMP_Settings.cfg
+
+    cp ~/Klipper-Adaptive-Meshing-Purging/Configuration/KAMP_Settings.cfg ~/pascale_data/config/KAMP_Settings.cfg
     ```
     > **Note:**
     > This will change to the home directory, clone the KAMP repo, create a symbolic link of the repo to your printer's config folder, and create a copy of `KAMP_Settings.cfg` in your config directory, ready to edit.
@@ -104,7 +120,7 @@ The cleanest and easiest way to get started with KAMP is to use Moonraker's Upda
    type: git_repo
    channel: dev
    path: ~/Klipper-Adaptive-Meshing-Purging
-   origin: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+   origin: https://github.com/Bradford1040/Klipper-Adaptive-Meshing-Purging.git
    managed_services: klipper
    primary_branch: main
     ```
